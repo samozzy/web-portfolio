@@ -1,0 +1,28 @@
+title: Sam Osborne - Web Developer
+email: sam@samosborne.me
+description: >-
+  Sam Osborne is a web developer based in the East Midlands of the UK.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://web.samosborne.me" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: samozzy
+github_username:  samozzy
+
+markdown: kramdown 
+permalink: pretty 
+
+sass:
+  sass_dir: _sass 
+  style: compressed
+
+exclude:
+ - .bundle
+ - vendor 
+ - .sass-cache 
+ - Gemfile
+ - Gemfile.lock 
+ - README.md 
+
+collections:
+  projects:
+    output: false 
+    permalink: projects/:path
