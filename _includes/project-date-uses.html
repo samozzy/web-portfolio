@@ -1,0 +1,17 @@
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-12 col-md-6 order-2 {% if remainder == 0 %}order-md-3{% else %}order-md-1{% endif %}">
+							<ul class="{% if remainder == 0 %}mr-4 float-md-right{% endif %}">
+								{% for i in project.uses %}
+								<li>{{ i }}</li>
+								{% endfor %}
+							</ul>				
+						</div>
+						<div class="col-12 col-md-6 {% if remainder != 0 %}text-md-right{% endif %}order-1 order-md-2">
+							<h4><em>{{ project.project_date }}</em></h4>
+							{% if project.github or project.link %}
+							<h4 class="">{% if project.link %}<a href="{{ project.link }}" title="View live project"><i class="fa fa-fw fa-lg fa-link"></i></a>&nbsp;{% endif %}{% if project.github %}<a href="https://github.com/{{ project.github }}" title="View project source on GitHub"><i class="fab fa-fw fa-lg fa-github"></i></a>{% endif %}</h4>
+							{% endif %}
+						</div>
+					</div>
+				</div>
