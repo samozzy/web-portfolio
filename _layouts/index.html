@@ -20,7 +20,8 @@ layout: default
 							<h3>I can make anything!</h3>
 						</div>
 						<div class="col-12 col-md-5">
-							<p>That's a bit broad. I make portfolios (for individuals and companies), web applications of various sizes, and anything in between.</p>
+							<p><em>That's a bit broad.</em></p>
+							<p>I make portfolios (for individuals and companies), web applications of various sizes, and anything in between.</p>
 							<p>I mostly love working with arts-based teams doing things they're excited about, but I'll give just about anything a go.</p>
 							<p>I'm best with a small, passionate team who communicate openly and honestly about what they want, while leaving some room for creative freedom.</p>
 							<p>If that sounds like how you work, let's chat.</p>
@@ -71,10 +72,10 @@ layout: default
 				<h3 class="pt-2 display-4">{{ project.title }} <br /><span class="text-muted">{{ project.role }}</span></h3>
 				<div class="container-fluid">
 					<div class="row">
-						<div class="col-8 col-md-12 p-0">
+						<div class="col-12 order-2 col-sm-8 order-sm-1 col-md-12 p-0">
 							{% if project.content %}{{ project.content }}{% endif %}	
 						</div>
-						<div class="d-md-none col-4 p-0">
+						<div class="d-md-none col-12 order-1 order-sm-2 col-sm-4 p-0">
 							{% include project-date-uses.html %}
 						</div>
 					</div>
@@ -92,10 +93,3 @@ layout: default
 		{% endfor %}
 		</div>
 	</div>
-
-	<!-- 
-	Image: col-12 col-md-6
-	Content: col-8 col-md-6
-	Date: col-4 col-md-6
-
-		-->
