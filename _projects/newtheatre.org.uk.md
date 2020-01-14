@@ -5,8 +5,8 @@ role: Lead Developer
 uses:
   - Bootstrap
   - Jekyll 
-  - GitHub Pages (production)
-  - Netlify (deploy previews)
+  - GitHub Pages (master)
+  - Netlify (staging)
   - TravisCI 
 img: /static/img/newtheatre.org.uk.png
 github: newtheatre/website 

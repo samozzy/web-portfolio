@@ -15,3 +15,8 @@ h1, h4, p, li, span {
 body {
 	background-color: #BCC3DF !important;
 }
+ul.uses-list li {
+	@media (max-width: 575px) {
+		margin-left: -1rem;
+	}
+}
