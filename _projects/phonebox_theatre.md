@@ -1,6 +1,6 @@
 ---
 title: Phone Box Theatre
-# link: https://phoneboxtheatre.co.uk/
+link: https://phoneboxtheatre.co.uk/
 role: Lead Developer
 uses:
   - Jekyll
@@ -15,5 +15,3 @@ permalink: /phonebox
 Phone Box Theatre is an independent theatre company based out of Nottingham. They make new shows focusing on themes of connection and isolation with stylised technical designs. 
 
 It is built with Forestry so the team can update the copy, and built to scale so that when they make shows more pages can be add turning this single-page site into a fully-fledged portfolio.
-
-_This site is being launched in Summer 2020 and is included here with permission._
