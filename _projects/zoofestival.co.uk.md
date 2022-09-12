@@ -8,7 +8,7 @@ uses:
   - Forestry
   - GitHub Pages
 img: /static/img/zoofestival.png
-project_date: June 2022
+project_date: August 2022
 permalink: /zoofestival/
 --- 
 
